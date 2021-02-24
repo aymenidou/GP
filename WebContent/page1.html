@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Authentification</title>
+<style id="applicationStylesheet" type="text/css">
+	.mediaViewInfo {
+		--web-view-name: Page1;
+		--web-view-id: Page1;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Page1;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Page1 {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Page1;
+		--web-view-id: Page1;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#Group_3 {
+		position: absolute;
+		width: 405px;
+		height: 503px;
+		left: 758px;
+		top: 289px;
+		overflow: visible;
+	}
+	#Rectangle_1 {
+		fill: rgba(5,133,199,1);
+	}
+	.Rectangle_1 {
+		position: absolute;
+		overflow: visible;
+		width: 405px;
+		height: 503px;
+		left: 0px;
+		top: 0px;
+	}
+	#Group_2 {
+		position: absolute;
+		width: 298.473px;
+		height: 239.162px;
+		left: 53px;
+		top: 225px;
+		overflow: visible;
+	}
+	#Group_1 {
+		position: absolute;
+		width: 298px;
+		height: 168px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Mot_de_passe {
+		left: 0px;
+		top: 104px;
+		position: absolute;
+		overflow: visible;
+		width: 121px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Utilisateur {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 91px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Rectangle_2 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_2 {
+		position: absolute;
+		overflow: visible;
+		width: 298px;
+		height: 32px;
+		left: 0px;
+		top: 37px;
+	}
+	#Rectangle_3 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_3 {
+		position: absolute;
+		overflow: visible;
+		width: 298px;
+		height: 32px;
+		left: 0px;
+		top: 136px;
+	}
+	#arrow-point-to-right {
+		position: absolute;
+		width: 19.473px;
+		height: 34.162px;
+		left: 279px;
+		top: 205px;
+		overflow: visible;
+	}
+	#Path_1 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_1 {
+		overflow: visible;
+		position: absolute;
+		width: 19.474px;
+		height: 34.162px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Atrait_Consulting_-_Logo_Blanc {
+		position: absolute;
+		width: 342px;
+		height: 128px;
+		left: 790px;
+		top: 343px;
+		overflow: visible;
+	}
+	#mthomasatrait-consulting {
+		opacity: 0;
+		left: 829px;
+		top: 554px;
+		position: absolute;
+		overflow: visible;
+		width: 248px;
+		white-space: nowrap;
+		transition: all 0.3s ease-out;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: Page2.html;
+		cursor: pointer;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+</style>
+<link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+<div id="Page1" >
+	<div id="Group_3" class="row align-content-center card">
+		<svg class="Rectangle_1">
+			<rect id="Rectangle_1" rx="22" ry="22" x="0" y="0" width="405" height="503">
+			</rect>
+		</svg>
+		<div id="Group_2">
+			<div id="Group_1">
+				<div id="Mot_de_passe">
+					<span>Mot de passe</span>
+				</div>
+				<div id="Utilisateur">
+					<span>Utilisateur</span>
+				</div>
+				<svg class="Rectangle_2">
+					<rect id="Rectangle_2" rx="16" ry="16" x="0" y="0" width="298" height="32">
+					</rect>
+				</svg>
+				<svg class="Rectangle_3">
+					<rect id="Rectangle_3" rx="16" ry="16" x="0" y="0" width="298" height="32">
+					</rect>
+				</svg>
+			</div>
+			<div id="arrow-point-to-right">
+				<svg class="Path_1" viewBox="97.138 0 19.473 34.162">
+					<path id="Path_1" d="M 115.9112396240234 18.7717170715332 L 101.2223052978516 33.46020889282227 C 100.2879104614258 34.39505386352539 98.77294921875 34.39505386352539 97.83900451660156 33.46020889282227 C 96.90499114990234 32.52619171142578 96.90499114990234 31.01130485534668 97.83900451660156 30.07736396789551 L 110.8364486694336 17.08029556274414 L 97.83938598632813 4.083685398101807 C 96.90536499023438 3.149291515350342 96.90536499023438 1.634558796882629 97.83938598632813 0.7005428671836853 C 98.77339935302734 -0.2338512688875198 100.2882843017578 -0.2338512688875198 101.2226791381836 0.7005428671836853 L 115.91162109375 15.38925552368164 C 116.3786315917969 15.85648918151855 116.6118698120117 16.46820449829102 116.6118698120117 17.08021926879883 C 116.6118698120117 17.69254112243652 116.378173828125 18.30471038818359 115.9112396240234 18.7717170715332 Z">
+					</path>
+				</svg>
+			</div>
+		</div>
+	</div>
+	<img id="Atrait_Consulting_-_Logo_Blanc" src="Atrait_Consulting_-_Logo_Blanc.png" srcset="Atrait_Consulting_-_Logo_Blanc.png 1x, Atrait_Consulting_-_Logo_Blanc@2x.png 2x">
+	<div onclick="application.goToTargetView(event)" id="mthomasatrait-consulting">
+		<span>mthomas@atrait-consulting</span>
+	</div>
+</div>
+</body>
+</html>

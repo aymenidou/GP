@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 22, 2021, 12:09:46 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="model.User" table="user">
+        <id name="username" type="java.lang.String">
+            <column name="username" />
+            <generator class="assigned" />
+        </id>
+        <property name="password" type="java.lang.String">
+            <column name="password" />
+        </property>
+        <property name="nom" type="java.lang.String">
+            <column name="nom" />
+        </property>
+        <property name="prenom" type="java.lang.String">
+            <column name="prenom" />
+        </property>
+    </class>
+</hibernate-mapping>
